@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog de Tecnología</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+        }
+        nav {
+            background-color: #24292e;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .container {
+            display: flex;
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        main {
+            flex: 3;
+            background: white;
+            padding: 20px;
+            border-radius: 6px;
+        }
+        aside {
+            flex: 1;
+            background: #e1e4e8;
+            padding: 20px;
+            margin-left: 20px;
+            border-radius: 6px;
+            height: fit-content;
+        }
+        article {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Artículos</a>
+        <a href="#">Acerca de</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <article>
+                <h2>El Proceso Administrativo en el Software</h2>
+                <small>Publicado el 25 de mayo de 2026</small>
+                <p>La planeación, organización, dirección y control no son solo para administradores. Cuando desarrollas una aplicación, estas etapas evitan retrasos catastróficos...</p>
+            </article>
+
+            <article>
+                <h2>Conceptos Clave de la Industria 4.0</h2>
+                <small>Publicado el 18 de mayo de 2026</small>
+                <p>La interconectividad, la analítica avanzada y los datos en tiempo real están transformando el desarrollo de los negocios modernos a nivel global.</p>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#">Desarrollo de Software</a></li>
+                <li><a href="#">Negocios Electrónicos</a></li>
+                <li><a href="#">Administración de Proyectos</a></li>
+            </ul>
+        </aside>
+    </div>
+
+</body>
+</html>
